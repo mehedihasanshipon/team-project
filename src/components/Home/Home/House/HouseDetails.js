@@ -9,16 +9,6 @@ const HouseDetails = (props) => {
    
    const handleBtn = (serviceId) => {
       history.push(`/details/${serviceId}`);
-      const info ={
-         img, 
-         title,
-         bedroom,
-         bathroom, 
-         price, 
-         location, 
-         id
-      }
-      console.log(info)
    }
     return (
         <Col md={4} sm={6} xs={12} className="mb-5">
