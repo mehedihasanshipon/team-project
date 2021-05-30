@@ -1,0 +1,9 @@
+.footer-container{
+    background-color: lightskyblue;
+    width: 100vw;
+}
+.social-image-container{
+    display: flex;
+    /* border:1px solid red; */
+    justify-content: space-evenly;
+}

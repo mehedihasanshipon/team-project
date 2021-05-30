@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import property from '../../../../image/apartment 1.png'
 import property1 from '../../../../image/lessee 1.png'
 import property2 from '../../../../image/affordable 1.png'
@@ -25,7 +25,7 @@ const Service = () => {
   
      ]
     return (
-        <div id="service" className="text-center mb-5 mt-3 service-container">
+        <Container id="service" className="text-center mb-5 mt-3 service-container">
         <p className="m-0 p-2">Services</p>
         <h3 style={{fontSize:"34px"}} className="m-0 p-0 mb-5">We're an agency tailored to all <br/> clients' needs that always delivers</h3>
 
@@ -38,7 +38,7 @@ const Service = () => {
          </div>
       </Col>)}
         </Row>
-     </div>
+     </Container>
     );
 };
 

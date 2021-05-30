@@ -7,6 +7,7 @@ import Navbars from '../Navbars/Navbars';
 import Header from './Header';
 import Houses from './House/Houses';
 import Service from './Service/Service';
+import Footer from './Footer/Footer';
 
 
 const Home = () => {
@@ -25,13 +26,14 @@ const Home = () => {
         fetchProducts();
     }, []);
     
-    // console.log(products)
+    console.log(products)
     return (
         <div>
             <Navbars />
             <Header/>
             <Houses/>
             <Service/>
+            <Footer/>
         </div>
     );
 };
