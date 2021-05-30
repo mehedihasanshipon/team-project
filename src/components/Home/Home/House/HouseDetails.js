@@ -1,8 +1,14 @@
 import React from 'react';
 import {  Button, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const HouseDetails = ({data}) => {
    //  console.log(data)
+   const history = useHistory();
+   
+   const handleBtn = (cardId) => {
+      history.push(`/details/${cardId}`)
+   }
     return (
         <Col md={4} sm={6} xs={12} className="mb-5">
         <img style={{width:"100%", borderRadius:"3px"}} src={data.img} alt=""/>
@@ -14,7 +20,7 @@ const HouseDetails = ({data}) => {
               <span style={{fontWeight:"400", fontSize:"15px"}} className="ml-4">{data.bathroom} bathroom</span>
               <div className="mt-3" style={{display:"flex", justifyContent:"space-between"}}>
                  <h2 className="house-price">${data.price}</h2>
-                 <Button  className="view-button my-1">View Details</Button>
+                 <Button onClick={() => {handleBtn(data?.id)}} className="view-button my-1">View Details</Button>
               </div>
            </div>
            
