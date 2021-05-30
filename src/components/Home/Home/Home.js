@@ -4,6 +4,9 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setProducts } from "../../../redux/actions/productsActions";
 import Navbars from '../Navbars/Navbars';
+import Header from './Header';
+import Houses from './House/Houses';
+import Service from './Service/Service';
 
 
 const Home = () => {
@@ -22,10 +25,13 @@ const Home = () => {
         fetchProducts();
     }, []);
     
-    console.log(products)
+    // console.log(products)
     return (
         <div>
             <Navbars />
+            <Header/>
+            <Houses/>
+            <Service/>
         </div>
     );
 };
