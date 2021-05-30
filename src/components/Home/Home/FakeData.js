@@ -2,7 +2,8 @@ import myimg from "../../../image/Rectangle 394.png"
 import myimg2 from "../../../image/Rectangle 396.png"
 import myimg3 from "../../../image/Rectangle 398.png"
  const fakehouse=[
-       {
+       {  
+          id: 1,
           img: myimg,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
@@ -24,7 +25,7 @@ import myimg3 from "../../../image/Rectangle 398.png"
           `
        },
        
-       {
+       {  id: 2,
           img: myimg2,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
@@ -33,7 +34,7 @@ import myimg3 from "../../../image/Rectangle 398.png"
           price: 500
        },
        
-       {
+       {  id: 3,
           img: myimg3,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
@@ -41,7 +42,7 @@ import myimg3 from "../../../image/Rectangle 398.png"
           bathroom: 2,
           price: 500
        },
-       {
+       {  id: 4,
           img: myimg,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
@@ -50,7 +51,7 @@ import myimg3 from "../../../image/Rectangle 398.png"
           price: 500
        },
        
-       {
+       {  id: 5,
           img: myimg2,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
@@ -59,7 +60,7 @@ import myimg3 from "../../../image/Rectangle 398.png"
           price: 500
        },
        
-       {
+       {  id: 6,
           img: myimg3,
           title: "Washington Avenue",
           location: "Nasirabad H/S, Chattogram",
