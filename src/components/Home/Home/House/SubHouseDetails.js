@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import fakehouse from '../FakeData';
@@ -6,6 +6,7 @@ import fakehouse from '../FakeData';
 const SubHouseDetails = () => {
     const {cardId} = useParams();
     console.log("useParams", cardId)
+    // eslint-disable-next-line eqeqeq
     const certainProduct = fakehouse?.find(datum => datum.id == cardId)
     console.log(certainProduct);
     // useEffect(()=> {
@@ -19,11 +20,11 @@ const SubHouseDetails = () => {
                 </div>
                 
                 <div>
-                <h5 style={{textAlign: 'left'}}>Apartment Info.</h5>
+                <h5 style={{textAlign: 'left'}}>Location</h5>
                 <p style={{textAlign: 'justify'}}>{certainProduct.apartmentInfo}</p>
-                <h5 style={{textAlign:'left'}}>Price Details</h5>
+                <h5 style={{textAlign:'left'}}>Packeg Details</h5>
                 <p style={{textAlign: 'justify'}}>{certainProduct.priceDetails}</p>
-                <h6 style={{textAlign: 'left'}}>Property Details</h6>
+                <h6 style={{textAlign: 'left'}}>Place Details</h6>
                 <p style={{textAlign: 'justify'}}>{certainProduct.propertyDetails}</p>
                 </div>
             </div>

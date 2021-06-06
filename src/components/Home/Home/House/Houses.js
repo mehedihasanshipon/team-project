@@ -8,8 +8,8 @@ const Houses = () => {
     return (
         <Container>
             <div className='header container'>
-            <p>House Rent</p>
-            <h1>Discover The Latest Rent <br /> Avalible Today</h1>
+            <p>Tourist Spot</p>
+            <h1>Discover The Latest Place <br /> Avalible Today</h1>
             </div>
             <Row>
                 {

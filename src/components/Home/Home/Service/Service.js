@@ -8,18 +8,18 @@ const Service = () => {
     const serviceData = [
         {
            img:property,
-           title:"Wide Range of Properties",
+           title:"Wide Range of Toure",
            description:"With a robust selection of popular properties on hand, as well as leading properties from experts."
         },
         
         {
            img:property1,
-           title:"Wide Range of Properties",
+           title:"100% Enjoyable Journey",
            description:"With a robust selection of popular properties on hand, as well as leading properties from experts."
         },
         {
            img:property2,
-           title:"Wide Range of Properties",
+           title:"Customer Satisfaction",
            description:"With a robust selection of popular properties on hand, as well as leading properties from experts."
         },
   
